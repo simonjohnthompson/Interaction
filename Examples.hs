@@ -85,3 +85,12 @@ evenmoreWords x
       = (y,z,["word"]++out)
         where
             (y,z,out) = evenmoreWords x
+
+
+-- Flavours of echo
+
+necho ys 
+  = "Prompt: " ++ [head ys] ++ "\n" ++ necho (tail ys)
+
+echon (x:xs) 
+  = "Prompt: " ++ [x] ++ "\n" ++ echon xs
