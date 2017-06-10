@@ -111,6 +111,7 @@ make_Output :: Output -> (Input,a,Output) -> (Input,a,Output)
 make_Output piece ~(input,st,out) = (input,st,piece++out)
 
 
+
 {-                                    
     Some traditional control structures:                
                                     
