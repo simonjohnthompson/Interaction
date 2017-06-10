@@ -405,7 +405,7 @@ run inter st g
     (_,final,out) = inter (split (read stdin),st)
 -}
 
-run :: Interact a b -> a -> IO Int
+run :: Interact a b -> a -> IO ()
 
 run inter st 
       = interact (\chs -> 
