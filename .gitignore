@@ -18,6 +18,6 @@ cabal.sandbox.config
 .stack-work/
 cabal.project.local
 .HTF/
-.rtf
+*.rtf
 Chapter18.hs
 Chapter8.hs
