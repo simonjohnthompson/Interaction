@@ -1,7 +1,7 @@
 # Interaction
 Lazy interactions in Haskell
 
-Code for the presentation at [ZuriHac2017](https://zurihac.info).
+Code and slides for the presentation at [ZuriHac2017](https://zurihac.info) and at [Haskell eXchange 2017](https://skillsmatter.com/conferences/8522-haskell-exchange-2017).
 
 ## Note
 
